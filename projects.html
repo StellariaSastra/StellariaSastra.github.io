@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Stellaria</strong> <span>the Space club of SASTRA</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="eventsandoutreach.html">Events and Outreach</a></li>
+							<li><a href="https://sedssastrablog.wordpress.com" rel="noopener noreferrer" target="_blank">Blog</a></li>
+							<li><a href="eventsandoutreach.html">The Team</a></li>
+							<li><a href="eventsandoutreach.html">Our Alumni</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Projects</h1>
+							</header>
+							<div class="content">
+								<p>Put ur space pants on and take a look at some of the interesting projects we have been working on.
+								</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>N-body Simulation</h2>
+									</header>
+									<p>In physics and astronomy, an N-body simulation is a simulation of a dynamical system of particles, usually under the influence of physical forces, such as gravity.<br>
+									 The objectives of the simulation are:<br>To model the formation of solar system<br>To study the interaction of galaxies<br>To get better understanding of celestial bodies<br>To proceed with the simulation, there are some essentials that needs to be understood.<br><b>Newton’s Problem</b><br>He tried to use analytical geometry to predict the planet’s motion from its orbital properties and failed.<br><b>F= Gm1m2/R2</b><br><br>But, for n bodies, there are n^2 interactions to calculate, which make it computationally intensive.<br>We can use<b> Barnes Hut algorithm </b>overcome this computational hindrance.<br><br> The use of<b> Barnes Hut Algorithm</b> proceeds with the following steps:<br><ol><li>Organise all bodies into quad tree (for 2D), ordered by their distance from each other.</li><li>Each body is the leaf on the end of the tree, and saves its mass, plus its orbital parameters, and save the combined mass of the attached bodies for each node.</li><li>For far away bodies, do not calculate every body’s mass and gravitational interaction individually. Instead, with increasing distance retreat further and further up the tree and use the mass information in the upper nodes.</li><li>This reduces the complexity from O(n^2) to O(n log n), which reduces the computation time exponentially!</li></ol><br>We use <b>Python3.6</b> for handling the formation of <b>Barnes Hut Algorithm</b> computing the forces of attraction. <b>Tqdm</b> for the status bar. <b>Matplotlib</b> for plotting all the points from the simulation onto the cartesian plane. <b>FFmpeg</b> is used for rendering the graphs from matplotlib into a video.<br>We at STELLARIA, are focusing to expand our work in this field in:<br><ul><li>Converting 2D to 3D</li><li>Making it more user friendly</li><li>Reduce rendering time</li><li>Adding support for windows</li></ul>
+</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h2>Radio Telescope</h2>
+											</header>
+											<p>Another project at Stellaria is the <b>Radio Telescope</b>.<br> The first question that most of us would have is What is a Radio Telescope?<br>A radio telescope is a specialised antenna and a radio receiver to detect radio waves from astronomical radio sources in the sky.Over the years radio telescopes have not only helped scientists but have kindled an interest in the student body.<br>The project which is in progress at Stellaria has the following objectives:<br><ul><li>To detect the pulsar B0329+54, which is approximately 3460 light years away from earth and has a period of 0.71452 seconds.</li><li>To map the Milky Way galaxy using the 21 cm hydrogen line and hence plot the rotation curve.</li><li>To pull data from satellites orbiting the earth and process the data to get images and also weather data from them.</li>The antenna which will be used is the <b>3D Corner Reflector Antenna.</b> 
+</p>
+											<!--<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>-->
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h2>NOAA Observation Station</h2>
+											</header>
+											<p>How cool is it to receive images directly from the weather satellites that fly above us in the enormous sky?<br> This has fascinated a lot of people across the globe.  All of us got very inquisitive too. This lead to the project we call <b>NOAA Obsevation Station.</b><br>So NOAA stands for <b>National Oceanic and Atmospheric Administration</b>. It is an American scientific agency that warns us about all the dangerous weather conditions and prevents loss of human life.<br>For this project which is under progress at Stellaria, we have an objective to <b>build an antenna and receive signals, analyse the data and publish the images</b> on a website such that it is accesible to everyone.
+</p>
+											<!--<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>-->
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Massa libero</h2>
+									</header>
+									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button next">Get Started</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="https://formspree.io/f/xvoveven">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">stellariasastra@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>SASTRA Deemed to be University<br />
+										Thirumalaisamudram, Thanjavur, 613401<br />
+										India, Earth, The Milky Way, Universe 616</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<!--<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+								<li><a href="https://www.facebook.com/pages/category/Science-Website/SEDS-SASTRA-628618024153457/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<!--<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+								<li><a href="https://github.com/StellariaSastra" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/company/stellaria-sastra/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
