@@ -27,6 +27,7 @@
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="eventsandoutreach.html">Events and Outreach</a></li>
                         <li><a href="https://sedssastrablog.wordpress.com" rel="noopener noreferrer" target="_blank">Blog</a></li>
+			<li><a href="celeritas.html">Celeritas</a></li>
                         <li><a href="eventsandoutreach.html">The Team</a></li>
                         <li><a href="eventsandoutreach.html">Our Alumni</a></li>
                     </ul>
