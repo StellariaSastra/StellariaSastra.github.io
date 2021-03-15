@@ -1,2 +1,2 @@
 # StellariaSastra.github.io
-The club's landing page
+The club's website
