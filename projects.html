@@ -49,7 +49,7 @@
 								<h1>Projects</h1>
 							</header>
 							<div class="content">
-								<p>Put ur space pants on and take a look at some of the interesting projects we have been working on.
+								<p>Put your space pants on and take a look at some of the interesting projects we have been working on.
 								</p>
 							</div>
 						</div>
@@ -58,7 +58,7 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- One -->
+						<!-- One 
 							<section id="one">
 								<div class="inner">
 									<header class="major">
@@ -68,7 +68,7 @@
 									 The objectives of the simulation are:<br>To model the formation of solar system<br>To study the interaction of galaxies<br>To get better understanding of celestial bodies<br>To proceed with the simulation, there are some essentials that needs to be understood.<br><b>Newton’s Problem</b><br>He tried to use analytical geometry to predict the planet’s motion from its orbital properties and failed.<br><b>F= Gm1m2/R2</b><br><br>But, for n bodies, there are n^2 interactions to calculate, which make it computationally intensive.<br>We can use<b> Barnes Hut algorithm </b>overcome this computational hindrance.<br><br> The use of<b> Barnes Hut Algorithm</b> proceeds with the following steps:<br><ol><li>Organise all bodies into quad tree (for 2D), ordered by their distance from each other.</li><li>Each body is the leaf on the end of the tree, and saves its mass, plus its orbital parameters, and save the combined mass of the attached bodies for each node.</li><li>For far away bodies, do not calculate every body’s mass and gravitational interaction individually. Instead, with increasing distance retreat further and further up the tree and use the mass information in the upper nodes.</li><li>This reduces the complexity from O(n^2) to O(n log n), which reduces the computation time exponentially!</li></ol><br>We use <b>Python3.6</b> for handling the formation of <b>Barnes Hut Algorithm</b> computing the forces of attraction. <b>Tqdm</b> for the status bar. <b>Matplotlib</b> for plotting all the points from the simulation onto the cartesian plane. <b>FFmpeg</b> is used for rendering the graphs from matplotlib into a video.<br>We at STELLARIA, are focusing to expand our work in this field in:<br><ul><li>Converting 2D to 3D</li><li>Making it more user friendly</li><li>Reduce rendering time</li><li>Adding support for windows</li></ul>
 </p>
 								</div>
-							</section>
+							</section>-->
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
@@ -79,9 +79,10 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h2>Radio Telescope</h2>
+												<h2>N-Body Simulation</h2>
 											</header>
-											<p>Another project at Stellaria is the <b>Radio Telescope</b>.<br> The first question that most of us would have is What is a Radio Telescope?<br>A radio telescope is a specialised antenna and a radio receiver to detect radio waves from astronomical radio sources in the sky.Over the years radio telescopes have not only helped scientists but have kindled an interest in the student body.<br>The project which is in progress at Stellaria has the following objectives:<br><ul><li>To detect the pulsar B0329+54, which is approximately 3460 light years away from earth and has a period of 0.71452 seconds.</li><li>To map the Milky Way galaxy using the 21 cm hydrogen line and hence plot the rotation curve.</li><li>To pull data from satellites orbiting the earth and process the data to get images and also weather data from them.</li>The antenna which will be used is the <b>3D Corner Reflector Antenna.</b> 
+											<p>In physics and astronomy, an N-body simulation is a simulation of a dynamical system of particles, usually under the influence of physical forces, such as gravity.<br>
+									 The objectives of the simulation are:<br>To model the formation of solar system<br>To study the interaction of galaxies<br>To get better understanding of celestial bodies<br>To proceed with the simulation, there are some essentials that needs to be understood.<br><b>Newton’s Problem</b><br>He tried to use analytical geometry to predict the planet’s motion from its orbital properties and failed.<br><b>F= Gm1m2/R2</b><br><br>But, for n bodies, there are n^2 interactions to calculate, which make it computationally intensive.<br>We can use<b> Barnes Hut algorithm </b>overcome this computational hindrance.<br><br> The use of<b> Barnes Hut Algorithm</b> proceeds with the following steps:<br><ol><li>Organise all bodies into quad tree (for 2D), ordered by their distance from each other.</li><li>Each body is the leaf on the end of the tree, and saves its mass, plus its orbital parameters, and save the combined mass of the attached bodies for each node.</li><li>For far away bodies, do not calculate every body’s mass and gravitational interaction individually. Instead, with increasing distance retreat further and further up the tree and use the mass information in the upper nodes.</li><li>This reduces the complexity from O(n^2) to O(n log n), which reduces the computation time exponentially!</li></ol><br>We use <b>Python3.6</b> for handling the formation of <b>Barnes Hut Algorithm</b> computing the forces of attraction. <b>Tqdm</b> for the status bar. <b>Matplotlib</b> for plotting all the points from the simulation onto the cartesian plane. <b>FFmpeg</b> is used for rendering the graphs from matplotlib into a video.<br>We at STELLARIA, are focusing to expand our work in this field in:<br><ul><li>Converting 2D to 3D</li><li>Making it more user friendly</li><li>Reduce rendering time</li><li>Adding support for windows</li></ul> 
 </p>
 											<!--<ul class="actions">
 												<li><a href="generic.html" class="button">Learn more</a></li>
@@ -96,9 +97,9 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h2>NOAA Observation Station</h2>
+												<h2>Radio Telescope</h2>
 											</header>
-											<p>How cool is it to receive images directly from the weather satellites that fly above us in the enormous sky?<br> This has fascinated a lot of people across the globe.  All of us got very inquisitive too. This lead to the project we call <b>NOAA Obsevation Station.</b><br>So NOAA stands for <b>National Oceanic and Atmospheric Administration</b>. It is an American scientific agency that warns us about all the dangerous weather conditions and prevents loss of human life.<br>For this project which is under progress at Stellaria, we have an objective to <b>build an antenna and receive signals, analyse the data and publish the images</b> on a website such that it is accesible to everyone.
+											<p>Another project at Stellaria is the <b>Radio Telescope</b>.<br> The first question that most of us would have is What is a Radio Telescope?<br>A radio telescope is a specialised antenna and a radio receiver to detect radio waves from astronomical radio sources in the sky.Over the years radio telescopes have not only helped scientists but have kindled an interest in the student body.<br>The project which is in progress at Stellaria has the following objectives:<br><ul><li>To detect the pulsar B0329+54, which is approximately 3460 light years away from earth and has a period of 0.71452 seconds.</li><li>To map the Milky Way galaxy using the 21 cm hydrogen line and hence plot the rotation curve.</li><li>To pull data from satellites orbiting the earth and process the data to get images and also weather data from them.</li>The antenna which will be used is the <b>3D Corner Reflector Antenna.</b>
 </p>
 											<!--<ul class="actions">
 												<li><a href="generic.html" class="button">Learn more</a></li>
@@ -113,12 +114,12 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Sed nunc ligula</h3>
+												<h2>Astrophotography</h2>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
+											<p>Ever been out at night and taken some photographs of the night sky? Or have you browsed online for images of the night sky taken by the Hubble Telescope? If you answer is ‘yes’ to either of these questions, you've already been exposed to the world of<b> Astrophotography</b>.<br>Astrophotography is simply taking a photograph of an object in space, whether it's with a point-and-shoot camera (DSLR’s, Phone Camera, etc…), The <b>Hubble Space Telescope</b> or any other type of camera. And the subject matter includes anything from the moon to the Milky Way.<br>The photographers mount and hook up recording instruments to different telescopes of varying magnification levels in order to improve imaging power.<b>Guide scopes</b> help align your camera for long exposures as the Earth rotates. <b>Timed remotes</b> take the pressure off precisely timed long, multiple exposures. <b>Telephoto lenses</b> increase the size of the photographed object in the frame. And that's just a few of the pieces of equipment that can help to improve the quality of Astro photographs.</p>
+										<!--	<ul class="actions">
 												<li><a href="generic.html" class="button">Learn more</a></li>
-											</ul>
+											</ul>-->
 										</div>
 									</div>
 								</section>
@@ -128,12 +129,12 @@
 							<section id="three">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+										<h2>NOAA Observation Station</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
+									<p>How cool is it to receive images directly from the weather satellites that fly above us in the enormous sky?<br> This has fascinated a lot of people across the globe.  All of us got very inquisitive too. This lead to the project we call <b>NOAA Obsevation Station.</b><br>So NOAA stands for <b>National Oceanic and Atmospheric Administration</b>. It is an American scientific agency that warns us about all the dangerous weather conditions and prevents loss of human life.<br>For this project which is under progress at Stellaria, we have an objective to <b>build an antenna and receive signals, analyse the data and publish the images</b> on a website such that it is accesible to everyone.</p>
+									<!--<ul class="actions">
 										<li><a href="generic.html" class="button next">Get Started</a></li>
-									</ul>
+									</ul>-->
 								</div>
 							</section>
 
